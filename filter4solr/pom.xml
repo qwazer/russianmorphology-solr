@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>morphology</artifactId>
+        <groupId>org.apache.lucene.morphology</groupId>
+        <version>1.2.qwazer</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>filter4solr</artifactId>
+    <description>Filter for solr as described at http://wiki.apache.org/solr/AnalyzersTokenizersTokenFilters</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.lucene.morphology</groupId>
+            <artifactId>russian</artifactId>
+            <version>1.2.qwazer</version>
+        </dependency>
+    </dependencies>
+
+</project>
